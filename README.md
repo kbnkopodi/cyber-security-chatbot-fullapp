@@ -2,8 +2,11 @@
 CyberSecurity Assistant is a WPF desktop application designed to educate users about cybersecurity best practices through interactive conversations, task management, and knowledge testing. The application simulates an AI assistant that can:
 
 💬 Chat about cybersecurity topics (phishing, password safety, safe browsing, malware, VPNs, 2FA, social engineering)
+
 📝 Manage Tasks with natural language input and reminder scheduling
+
 🎮 Test Knowledge through cybersecurity quizzes with instant feedback
+
 📊 Track Activities with an action log and conversation memory
 
 ✨ Features
