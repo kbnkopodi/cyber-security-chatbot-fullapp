@@ -1,4 +1,5 @@
 🛡️ CyberSecurity Assistant
+
 📖 Overview
 CyberSecurity Assistant is a Windows desktop application built with C# and WPF that functions as an AI-powered cybersecurity awareness tool. The application simulates an intelligent assistant that can educate users about cybersecurity topics, manage tasks, test knowledge through quizzes, and track user activities.
 
@@ -10,6 +11,7 @@ Help users manage tasks with natural language input
 Test cybersecurity knowledge through quizzes
 
 Track and log user activities for progress monitoring
+
 
 ✨ Key Features
 Intelligent Chat Assistant
@@ -23,6 +25,7 @@ The application includes a cybersecurity quiz with 12+ multiple-choice and true/
 
 Activity Tracking
 Every user action is automatically logged with timestamps and categories. Users can request activity summaries by asking "what have you done for me?" to see recent actions categorized by type.
+
 
 🛠️ Technology Stack
 Frameworks & Languages
@@ -42,6 +45,7 @@ System.Speech - Text-to-speech voice output
 
 Custom NLP Engine - Lightweight natural language processing
 
+
 📦 System Requirements
 Prerequisites
 Windows 10 or 11 (64-bit)
@@ -58,6 +62,7 @@ Minimum 4GB RAM
 100MB free disk space
 
 Sound card for voice output
+
 
 📥 Installation Guide
 Quick Installation
@@ -83,6 +88,7 @@ Generate chat memory and user profile files
 
 Display a welcome message asking for your name
 
+
 🗄️ Database Configuration
 Automatic Setup
 The database is created automatically when the application runs for the first time, provided LocalDB is installed.
@@ -94,6 +100,7 @@ Create a new database called "Studentdata" and add a table called "Data" with co
 
 Connection String
 The application uses Windows Integrated Security with the connection string pointing to the LocalDB instance.
+
 
 📖 Usage Guide
 Getting Started
@@ -128,6 +135,7 @@ Two-factor authentication
 
 Social engineering
 
+
 🧠 Natural Language Processing
 Intent Detection
 The application uses keyword matching to understand user intent. It recognizes phrases for task creation, quiz start, task viewing, and cybersecurity topics. The system handles greetings, farewells, and memory inquiries.
@@ -143,6 +151,7 @@ Relative dates: "today," "tomorrow," "next week," "next month"
 Duration phrases: "in 7 days," "in 2 weeks," "in 1 month"
 
 Specific dates: "25 June 2025" or "2025-06-25"
+
 
 📁 File Structure
 Main Components
@@ -162,6 +171,7 @@ chatmemory.txt - Stores conversation history
 
 userprofile.txt - Stores user name and favorite topic
 
+
 🔒 Security Features
 Current Security Measures
 Parameterized SQL queries prevent SQL injection attacks
@@ -179,6 +189,7 @@ Implement proper logging for security auditing
 
 Use configuration file encryption
 
+
 🔧 Troubleshooting
 Database Connection Issues
 If the application cannot connect to the database, ensure LocalDB is installed and running. You can check its status using the SQL LocalDB command line tool and start it if needed.
@@ -189,8 +200,10 @@ If text-to-speech is not working, ensure Windows Media Features are enabled in t
 Sound File Not Found
 If the application cannot find the exit sound file, you can comment out the sound player code or use a try-catch block to handle the error gracefully.
 
+
 📊 Performance
 The application runs efficiently with quick response times for most operations. Chat responses involve dictionary lookups, NLP processing uses keyword matching, database queries are optimized with indexing, and activity logging is append-only for minimal overhead.
+
 
 🤝 Contributing
 How to Contribute
