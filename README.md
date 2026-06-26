@@ -2,58 +2,40 @@
 CyberSecurity Assistant is a WPF desktop application designed to educate users about cybersecurity best practices through interactive conversations, task management, and knowledge testing. The application simulates an AI assistant that can:
 
 💬 Chat about cybersecurity topics (phishing, password safety, safe browsing, malware, VPNs, 2FA, social engineering)
-
 📝 Manage Tasks with natural language input and reminder scheduling
-
 🎮 Test Knowledge through cybersecurity quizzes with instant feedback
-
 📊 Track Activities with an action log and conversation memory
 
 ✨ Features
 🤖 Intelligent Chat Assistant
 Natural Language Understanding - Discuss cybersecurity topics conversationally
-
 Voice Output - Text-to-speech responses using Windows Speech Synthesis
-
 Emotion Detection - Responds empathetically to user emotions (worried, scared, confused, etc.)
-
 Memory Persistence - Remembers conversation history across sessions
-
 User Profiles - Stores user name and favorite cybersecurity topics
 
 📝 Smart Task Management
 Natural Language Task Creation - "Remind me to submit the report tomorrow"
-
 Step-by-Step Wizard - Guided task creation with title, description, and reminders
-
 Reminder Scheduling - Set reminders using natural language ("in 7 days", "next week", "on 25 June 2025")
-
 Task Listing - View all active tasks with their details
-
 Task Completion - Mark tasks as complete when finished
 
 🎮 Cybersecurity Quiz System
 12+ Quiz Questions - Multiple choice and true/false questions
-
 Instant Feedback - Detailed explanations for each answer
-
 Score Tracking - Performance evaluation with personalized feedback
-
 Progress Indicators - Track your progress through the quiz
-
 Exit Anytime - Quit the quiz and resume later
 
 📊 Activity Tracking
 Action Logging - Automatically logs all user activities
-
 Activity Summary - Ask "what have you done for me?" to see recent actions
-
 Categorized Actions - Tasks, reminders, quizzes, NLP interactions, and system events
 
 🖥️ Screenshots
 <div align="center">
 [Screenshots would go here - add actual screenshots of your application]
-
 </div>
 🛠️ Tech Stack
 Technology	Purpose
